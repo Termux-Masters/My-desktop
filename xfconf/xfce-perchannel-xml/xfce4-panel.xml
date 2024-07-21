@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="2"/>
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=6;x=27;y=166"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="70"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+        <value type="int" value="1"/>
+        <value type="int" value="20"/>
+        <value type="int" value="8"/>
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+      </property>
+      <property name="mode" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="55"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=9;x=638;y=29"/>
+      <property name="size" type="uint" value="39"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+        <value type="int" value="4"/>
+        <value type="int" value="11"/>
+        <value type="int" value="6"/>
+        <value type="int" value="12"/>
+        <value type="int" value="10"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="icon-size" type="uint" value="19"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="double" value="1"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17207932631.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17207932642.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17214508951.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17213923004.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="whiskermenu">
+      <property name="recent" type="array">
+        <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="chromium.desktop"/>
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
+        <value type="string" value="obconf.desktop"/>
+        <value type="string" value="org.xfce.PanelProfiles.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="org.xfce.ristretto.desktop"/>
+      </property>
+      <property name="menu-opacity" type="int" value="0"/>
+      <property name="menu-width" type="int" value="400"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="menu-height" type="int" value="720"/>
+      <property name="category-show-name" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="hamburger-menu"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-8" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="4"/>
+    </property>
+    <property name="plugin-1" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17214991061.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="notification-plugin"/>
+    <property name="plugin-4" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Chromium"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="pager"/>
+    <property name="plugin-10" type="string" value="clock">
+      <property name="digital-date-format" type="string" value="%b %d, %Y"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
